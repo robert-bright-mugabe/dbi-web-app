@@ -50,12 +50,12 @@ function About() {
           <div className="team-member">
             <img src="/images/team-placeholder.jpg" alt="John Smith" />
             <h3>John Smith</h3>
-            <p>Head of Product</p>
+            <p>Head of Production</p>
           </div>
           <div className="team-member">
             <img src="/images/team-placeholder.jpg" alt="Mary Green" />
             <h3>Mary Green</h3>
-            <p>Customer Success</p>
+            <p>Customer Relations</p>
           </div>
         </div>
       </section>
