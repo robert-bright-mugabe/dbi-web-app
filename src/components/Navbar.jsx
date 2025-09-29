@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
+
 function Navbar({ cartCount, setShowCart }) {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
@@ -10,8 +11,13 @@ function Navbar({ cartCount, setShowCart }) {
   return (
     <nav className="navbar">
       <div className="nav-container">
+        {/* Replace text logo with image */}
         <Link to="/" className="nav-logo">
-          Brago
+          <img
+            src="./images/brago-logo.png"
+            alt="Brago Logo"
+            className="logo-img"
+          />
         </Link>
         <button
           className="nav-toggle"

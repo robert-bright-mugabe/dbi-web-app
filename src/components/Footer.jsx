@@ -3,12 +3,8 @@ import React from "react";
 function Footer() {
   return (
     <footer className="site-footer">
-
-
       <div className="footer-container">
-
         <div className="links-form">
-
           <div className="links">
             {/* Navigation Links */}
             <div className="footer-links">
@@ -58,14 +54,13 @@ function Footer() {
                 </li>
               </ul>
             </div>
-
           </div>
 
           {/* Newsletter Subscription */}
           <div className="footer-newsletter">
             <h4>Stay Updated</h4>
             <p>Subscribe to our newsletter for the latest updates and offers.</p>
-            <form className="newsletter-form" class>
+            <form className="newsletter-form">
               <input
                 type="email"
                 placeholder="Enter your email"
@@ -77,13 +72,12 @@ function Footer() {
           </div>
         </div>
 
-
         {/* Branding Section */}
         <div className="footer-brand">
-          <h2 className="footer-logo">Brago</h2>
+          {/* Replace text logo with image */}
+          <img src="./images/brago-logo.png" alt="Brago Logo" className="logo-img" />
           <p>&copy; 2025 Dag and Bragan Industries. All rights reserved.</p>
         </div>
-
       </div>
     </footer>
   );
